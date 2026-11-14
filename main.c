@@ -15,14 +15,15 @@ int main (){
     do {
 
         printf("=============================\n");
-        printf("Conversiones de temperatura\n");
-        printf("Seleccione el tipo de conversion a realizar\n");
+        printf("Bienvenido al programa de conversiones");
+        printf("Menu principal\n");
         printf("1) Celsious a Farenheit\n");
         printf("2) Farenheit a Celsius\n");
         printf("3) Celsius a Kelvin\n");
-        printf("4)Salir");
-        scanf("%d", &opcion);
+        printf("4)Salir\n");
         printf("===========================\n");
+        printf("Seleccione el tipo de conversion a realizar\n");
+        scanf("%d", &opcion);
 
         switch (opcion){
             case 1:
